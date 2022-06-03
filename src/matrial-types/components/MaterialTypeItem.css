@@ -1,0 +1,49 @@
+.materialtype-item {
+  margin: 3rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+
+.materialtype-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+.materialtype-item a:hover,
+.materialtype-item a:active {
+  background: #ffd900;
+}
+
+.materialtype-item__content {
+  padding: 0;
+}
+
+.materialtype-item__image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.materialtype-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+.materialtype-item:hover h2,
+.materialtype-item:active h2,
+.materialtype-item:hover h3,
+.materialtype-item:active h3 {
+  color: #292929;
+}
+
+.materialtype-item__info h3 {
+  margin: 0;
+}

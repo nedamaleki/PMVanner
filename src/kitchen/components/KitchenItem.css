@@ -1,0 +1,49 @@
+.kitchen-item {
+  margin: 3rem;
+  width: calc(45% - 2rem);
+  min-width: 17.5rem;
+}
+
+.kitchen-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  color: white;
+  background: #292929;
+}
+
+.kitchen-item a:hover,
+.kitchen-item a:active {
+  background: #ffd900;
+}
+
+.kitchen-item__content {
+  padding: 0;
+}
+
+.kitchen-item__image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.kitchen-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+.kitchen-item:hover h2,
+.kitchen-item:active h2,
+.kitchen-item:hover h3,
+.kitchen-item:active h3 {
+  color: #292929;
+}
+
+.kitchen-item__info h3 {
+  margin: 0;
+}
